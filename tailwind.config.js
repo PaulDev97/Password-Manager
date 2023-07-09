@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'primary': {
-          'violet-card': '#30253C'
+          'violet-card': '#262132'
+          
         }
       },
       screens: {
