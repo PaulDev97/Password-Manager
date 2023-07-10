@@ -6,20 +6,38 @@ const Passwords = () => {
   const cardsObj = [
     {
       id: 1,
-      img: './assets/icons/padlock.png',
       app: 'Facebook',
       password: '123456'
     },
     {
       id: 2,
-      img: './assets/icons/padlock.png',
       app: 'Google',
-      password: '45685'
+      password: '4568fghjea'
+    },
+    {
+      id: 2,
+      app: 'Google',
+      password: '4568fghjea'
+    },
+    {
+      id: 2,
+      app: 'Google',
+      password: '4568fghjea'
+    },
+    {
+      id: 2,
+      app: 'Google',
+      password: '4568fghjea'
+    },
+    {
+      id: 2,
+      app: 'Google',
+      password: '4568fghjea'
     },
   ]
 
   return (
-    <div className='sm:flex flex-col justify-center items-center gap-6 bg-red w-[100%] mt-[40px]'>
+    <div className='sm:flex flex-col  items-center gap-6 bg-red w-[100%] mt-[20px] h-[420px] overflow-y-scroll p-1'>
       {
         cardsObj.map(item => (
           <Cards key={item.id} {...item} />
