@@ -9,14 +9,15 @@ module.exports = {
       colors: {
         'primary': {
           'violet-card': '#262132',
-          'white-text': '#fafafa' 
-        }
+          'white-text': '#fafafa',
+
+        },
+
       },
       screens: {
         'sm': { 'max': '360px' },
-      }
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
-

@@ -1,6 +1,8 @@
 
-import Navbar from "./components/Navbar/Navbar";
-import Passwords from "./components/Passwords/Passwords";
+/* import Navbar from "./components/Navbar/Navbar";
+import Passwords from "./components/Passwords/Passwords"; */
+
+import Routes from "./Routes/Routes";
 
 
 
@@ -8,8 +10,9 @@ import Passwords from "./components/Passwords/Passwords";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Passwords/>
+      {/* <Navbar/>
+      <Passwords/> */}
+      <Routes/>
     </div>
   );
 }
