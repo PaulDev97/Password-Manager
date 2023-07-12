@@ -7,6 +7,8 @@ const Navbar = () => {
 
   const [select, setSelect] = useState('user')
 
+
+
   const handleMenu = (menu) => {
     setSelect(menu)
   }
@@ -19,7 +21,7 @@ const Navbar = () => {
         <NavLink 
           to='/' 
           onClick={() => handleMenu('user')}
-          className={select === 'user' ? 'text-[#fafafa] bg-[#000000] p-2 rounded-lg ' : 'text-gray-600 p-2'}>
+          className={select === 'user' ? 'text-[#9669ff]  p-2 rounded-lg ' : 'text-gray-600 p-2'}>
           
           <FontAwesomeIcon  icon={faUser} />
         </NavLink>
@@ -27,7 +29,7 @@ const Navbar = () => {
         <NavLink 
           to='password' 
           onClick={() => handleMenu('password')}
-          className={select === 'password' ? 'text-[#fafafa] bg-[#000000] p-2 rounded-lg' : 'text-gray-600 p-2'}>
+          className={select === 'password' ? 'text-[#9669ff]  p-2 rounded-lg' : 'text-gray-600 p-2'}>
 
           <FontAwesomeIcon icon={faLock} />
         </NavLink>
@@ -35,7 +37,7 @@ const Navbar = () => {
         <NavLink 
           to='form' 
           onClick={() => handleMenu('form')}
-          className={select === 'form' ? 'text-[#fafafa] bg-[#000000] p-2 rounded-lg' : 'text-gray-600 p-2'}>
+          className={select === 'form' ? 'text-[#9669ff]  p-2 rounded-lg' : 'text-gray-600 p-2'}>
           
           <FontAwesomeIcon  icon={faPlus} />
         </NavLink>

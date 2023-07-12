@@ -1,14 +1,15 @@
-import { Routes as ReactDomRoutes, Route } from "react-router-dom"
+import { Routes as ReactDomRoutes, Route, useNavigate } from "react-router-dom"
 import Layout from "../components/Layout/Layout"
 import User from "../components/User/User"
 import Passwords from "../components/Passwords/Passwords"
 import Form from "../components/Form/Form"
 
 
-
-
-
 const Routes = () => {
+
+
+  
+  
   return (
     <Layout>
 

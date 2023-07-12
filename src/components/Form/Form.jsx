@@ -47,6 +47,8 @@ const Form = () => {
         onChange={handleChange}
         autoComplete='off'
         required
+        placeholder='E-mail o plataforma'
+        className='border-none outline-none  py-1 px-2 rounded'
       />
 
 
@@ -56,9 +58,11 @@ const Form = () => {
         onChange={handleChange}
         autoComplete='off'
         required
+        placeholder='Escribe la contraseña'
+        className='border-none outline-none py-1 px-2 rounded'
       />
 
-      <button type='submit' className='bg-violet-600 rounded w-[100px] p-2'>Agregar</button>
+      <button type='submit' className=' bg-primary-violet-card  shadow-[0px_0px_10px_4px_#44337a] rounded w-[100px] p-2'>Agregar</button>
     </form>
   )
 }
