@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header className='w-full h-[20%] absolute bottom-5 flex items-center justify-center  '>
-      <nav className=' w-[60%] h-[70px] flex justify-around items-center gap-6 text-xl rounded-lg  bg-primary-violet-card p-4 shadow-[0px_0px_10px_4px_#44337a] '>
+      <nav className=' sm:w-[60%] h-[70px] w-[300px] flex justify-around items-center gap-6 text-xl rounded-lg  bg-primary-violet-card p-4 shadow-[0px_0px_10px_4px_#44337a] '>
 
         <NavLink 
           to='/' 
