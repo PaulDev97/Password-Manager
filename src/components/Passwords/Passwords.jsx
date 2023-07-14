@@ -9,7 +9,7 @@ const Passwords = () => {
   console.log(passwordsList)
 
   return (
-    <div className='sm:w-[80%] w-[401px] sm:flex flex-col justify-center m-auto   items-center gap-6 bg-red h-[60vh] mt-[20px]  border-white-2 overflow-auto p-1 '>
+    <div className='sm:w-[95%] w-[401px] flex flex-col  m-auto   items-center gap-6 bg-red h-[60vh] mt-[20px]  border-white-2 overflow-auto p-1 overflow-y-scroll no-scrollbar '>
       {
         passwordsList.length === 0
         ?<div>no hay passwords</div>
