@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-    
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -16,8 +16,10 @@ module.exports = {
 
       },
       screens: {
+        'phone': { 'max': '360px' },
         'sm': { 'max': '500px' },
-        
+        'lg': { 'min': '501px' }
+
       },
     },
     plugins: [
