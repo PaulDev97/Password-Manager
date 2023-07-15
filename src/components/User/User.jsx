@@ -9,7 +9,7 @@ const User = () => {
   return (
 
     <main className='flex flex-col justify-center items-center '>
-      <div className=' sm:max-w-[100%] phone:max-w-[100%] w-[400px] h-[320px]  border-x-cyan-300 border-2  m-auto flex justify-center items-center overflow-hidden'>
+      <div className=' sm:max-w-[100%] phone:max-w-[100%] w-[400px] h-[320px] m-auto flex justify-center items-center overflow-hidden'>
 
         <div className='bg-primary-violet-card phone:w-[90%]   w-[76%] h-[100%] rounded-full flex shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]  justify-center items-center'>
 
